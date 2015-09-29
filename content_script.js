@@ -68,7 +68,8 @@ function STTB() {
         }
 
         // Creates the button image on the page
-        $("body").prepend('<img id="STTBimg" />');
+        //$("body").prepend('<img id="STTBimg" />');
+        $("body").prepend('<div id="STTBimg"><a href="javascript:;" style="display: block;width: 38px;height: 38px;background-color: #ddd;border-radius: 3px;border: 0;cursor: pointer;position: relative;"><div style="position: absolute;right: 0;left: 0;margin: auto;width: 0;height: 0;top: -1px;border: 9px solid transparent;border-bottom-color: #aaa;"></div><div style="position: absolute;right: 0;left: 0;margin: auto;width: 8px;height: 14px;top: 15px;border-radius: 1px;background-color: #bbb;"></div></a></div>');
         if(stbb=="flip"){
             $("#STTBimg").rotate(-180);
         }
